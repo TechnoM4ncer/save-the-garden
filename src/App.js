@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header.jsx';
+import Body from './Body/Body.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          UNDER CONSTRUCTION
-        </p>
-      </header>
+    <div className={"App"}>
+      <Header/>
+      <Body />
     </div>
   );
 }
