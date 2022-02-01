@@ -6,8 +6,6 @@ export default function Body() {
   return (
     <body className = {"body"}>
 
-        <h1>Gaia's Garden</h1>
-
         <img src = {susearth} width = "80%" height = "80%" />
 
         <div className="bodyText">

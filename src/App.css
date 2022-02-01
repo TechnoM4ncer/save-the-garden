@@ -42,6 +42,9 @@ Body.body {
   justify-content: center;
   font-size: calc(10px + 1vmin);
   color: black;
+  font-family: 'Times New Roman', serif;
+  font-size:larger;
+  font-weight:bold;
 }
 
 .bodyText {
@@ -51,6 +54,9 @@ Body.body {
   margin-right: auto;
   background-color: #c9f7c3;
   filter: opacity(.7);
+  font-family: 'Courier New', monospace;
+  font-size:larger;
+  font-weight:bold;
 }
 
 Header.header {
@@ -58,6 +64,8 @@ Header.header {
 }
 
 .navbar-header{
+  font-family: 'Times New Roman', serif;
+  font-size: larger;
   background-color: #0a8545;
   filter:opacity(.5);
   padding-left: 5%;
@@ -67,5 +75,5 @@ Header.header {
   border-radius:20px;
   align-items: center;
   justify-content: center;
-  width: 90%
+  width: 90%;
 }
