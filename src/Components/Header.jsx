@@ -7,7 +7,7 @@ import shoppingcart from '../Assets/shoppingcart.png';
 
 export default function Header() {
   return (
-<Navbar bg="dark" variant="dark">
+<Navbar sticky = "top" bg="dark" variant="dark">
   <Nav className="container-fluid">
     <Nav.Item>
       <Navbar.Brand as={Link} to="/">Gaia's Garden</Navbar.Brand>
