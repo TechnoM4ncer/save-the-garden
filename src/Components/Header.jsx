@@ -1,4 +1,5 @@
 import '../App.css';
+import '../index.css';
 import { Navbar, NavItem, NavDropdown, MenuItem, Nav, Form, FormControl, Button } from 'react-bootstrap';
 import { Link, IndexLink } from 'react-router-dom';
 import shoppingcart from '../Assets/shoppingcart.png';
@@ -7,7 +8,7 @@ import shoppingcart from '../Assets/shoppingcart.png';
 
 export default function Header() {
   return (
-<Navbar sticky = "top" bg="dark" variant="dark">
+<Navbar className= "navbar-header" sticky = "top" variant="dark">
   <Nav className="container-fluid">
     <Nav.Item>
       <Navbar.Brand as={Link} to="/">Gaia's Garden</Navbar.Brand>

@@ -24,6 +24,7 @@ time, mark, audio, video {
   text-align: center;
   margin: 0;
   padding: 0;
+  background-color: #f3efe5;
 }
 
 .App-link {
@@ -46,8 +47,25 @@ Body.body {
 .bodyText {
   padding-left: 10%;
   padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c9f7c3;
+  filter: opacity(.7);
 }
 
 Header.header {
-  background-color: #014421;
+  background-color: #0a8545;
+}
+
+.navbar-header{
+  background-color: #0a8545;
+  filter:opacity(.5);
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:20px;
+  align-items: center;
+  justify-content: center;
+  width: 90%
 }
