@@ -3,7 +3,7 @@ import '../index.css';
 import susearth from '../Assets/susearth.png';
 import Header from './Header.jsx';
 
-export default function Body() {
+export default function Cart() {
   return (
     <body className = {"body"}>
         <Header />
@@ -11,9 +11,7 @@ export default function Body() {
         <img src = {susearth} width = "80%" height = "80%" />
 
         <div className="bodyText">
-
         <h1>UNDER CONSTRUCTION</h1>
-
         </div>
     </body>
   );

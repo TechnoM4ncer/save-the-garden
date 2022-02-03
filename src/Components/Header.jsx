@@ -17,14 +17,14 @@ export default function Header() {
     </Nav.Link>
     </Nav.Item>
     <Nav.Item className = "nav-button">
-      <Nav.Link as={Link} to="/store">Shop</Nav.Link>
+      <Nav.Link as={Link} to="/Components/Store.jsx">Shop</Nav.Link>
     </Nav.Item>
     <Nav.Item>
       <Nav.Link as={Link} to = "/Components/About.jsx">About</Nav.Link>
     </Nav.Item>
     <Nav.Item className="ms-auto">
       <Nav pullRight> 
-        <Nav.Link as={Link} to="/cart">
+        <Nav.Link as={Link} to="/Components/Cart.jsx">
         <img src={shoppingcart} alt="Shopping Cart" width="50" height="50"/>
         </Nav.Link>
       </Nav>

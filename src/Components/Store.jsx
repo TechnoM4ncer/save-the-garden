@@ -3,7 +3,7 @@ import '../index.css';
 import susearth from '../Assets/susearth.png';
 import Header from './Header.jsx';
 
-export default function Body() {
+export default function Store() {
   return (
     <body className = {"body"}>
         <Header />
