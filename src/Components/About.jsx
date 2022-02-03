@@ -3,7 +3,7 @@ import '../index.css';
 import susearth from '../Assets/susearth.png';
 import Header from './Header.jsx';
 
-export default function Body() {
+export default function About() {
   return (
     <body className = {"body"}>
         <Header />
@@ -12,7 +12,7 @@ export default function Body() {
 
         <div className="bodyText">
 
-          <h1>HOME</h1>
+          <h1>ABOUT</h1>
 
           <h1>What is Sustainability?</h1>
           <hr class = "class-1"/>
