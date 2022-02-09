@@ -17,7 +17,7 @@ export default function About() {
           <p>Sustainability as a concept recognizes that the environment is an exhaustible resource. Therefore, it is important to use the environment and its resources rationally and protect it for the good of the Earth, our environment, humanity, and all living things.</p>
 
           <hr class = "class-1"/>
-          <h1>Why You Should Care About Being Sustainable!</h1>
+          <h1>Why Should You Care About Being Sustainable?</h1>
           <hr class = "class-1"/>
           <p>Being sustainable makes sense!</p>
           <p>It can save you money, improve health, and increase safety. Being committed to sustainability will reduce your carbon footprint and the amount of toxins released into the environment, making it safe. When we focus on sustainability, the entire world benefits and gets to live in clean, more healthy living conditions.</p>
