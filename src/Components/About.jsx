@@ -1,14 +1,11 @@
 import '../App.css';
 import '../index.css';
-import susearth from '../Assets/susearth.png';
 import Header from './Header.jsx';
 
 export default function About() {
   return (
     <body className = {"body"}>
         <Header />
-
-        <img src = {susearth} width = "80%" height = "80%" />
 
         <div className="bodyText">
 

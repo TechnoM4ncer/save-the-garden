@@ -24,7 +24,6 @@ time, mark, audio, video {
   text-align: center;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
 }
 
 .App-link {
@@ -32,10 +31,15 @@ time, mark, audio, video {
 }
 
 Body.body {
-  background-color: #ffffff;
+  background-image: url(./Assets/sushandplant.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  height: 100%;
+  padding-bottom: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,13 +54,14 @@ Body.body {
 .bodyText {
   padding-left: 10%;
   padding-right: 10%;
-  margin-left: auto;
+  margin-left: 50%;
   margin-right: auto;
-  background-color: #c9f7c3;
+
   filter: opacity(.7);
   font-family: 'Courier New', monospace;
   font-size:larger;
   font-weight:bold;
+  text-align: center;
 }
 
 Header.header {
@@ -70,6 +75,8 @@ Header.header {
   filter:opacity(.7);
   padding-left: 1%;
   padding-right: 2%;
+  margin-top: 6.5%;
+  margin-bottom: 20vh;
   margin-left: auto;
   margin-right: auto;
   border-radius:20px;
