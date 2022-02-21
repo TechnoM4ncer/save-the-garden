@@ -30,7 +30,7 @@ time, mark, audio, video {
   color: #61dafb;
 }
 
-Body.body {
+.body {
   background-image: url(./Assets/sushandplant.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ Body.body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  padding-bottom: 50vh;
+  padding-bottom: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,12 +51,11 @@ Body.body {
   font-weight:bold;
 }
 
-.bodyText {
+.body-text {
   padding-left: 10%;
   padding-right: 10%;
   margin-left: 50%;
   margin-right: auto;
-
   filter: opacity(.7);
   font-family: 'Courier New', monospace;
   font-size:larger;
@@ -83,8 +82,4 @@ Header.header {
   align-items: center;
   justify-content: center;
   width: 90%;
-}
-
-.nav-button {
-  padding-left: 1%;
 }

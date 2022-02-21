@@ -1,11 +1,9 @@
 import '../App.css';
 import '../index.css';
-import { Navbar, NavDropdown, Nav } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import shoppingcart from '../Assets/shoppingcart.png';
 import gaiaLogo from '../Assets/gaialogo.png';
-
-
 
 export default function Header() {
   return (
@@ -16,14 +14,14 @@ export default function Header() {
     <img className = "logo" src={gaiaLogo} alt="Gaia's Garden" width="150" height="90"/>
     </Nav.Link>
     </Nav.Item>
-    <Nav.Item className = "nav-button">
+    <Nav.Item style = {{paddingLeft: "1%"}}>
       <Nav.Link as={Link} to="/Components/Store.jsx">Shop</Nav.Link>
     </Nav.Item>
     <Nav.Item>
       <Nav.Link as={Link} to = "/Components/About.jsx">About</Nav.Link>
     </Nav.Item>
     <Nav.Item className="ms-auto">
-      <Nav pullRight> 
+      <Nav> 
         <Nav.Link as={Link} to="/Components/Cart.jsx">
         <img src={shoppingcart} alt="Shopping Cart" width="50" height="50"/>
         </Nav.Link>

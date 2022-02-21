@@ -4,7 +4,7 @@ import Header from './Header.jsx';
 
 export default function Body() {
   return (
-    <body className = {"body"}>
+    <div className = {"body"}>
         <Header />
 
         <div className="bodyText">
@@ -12,6 +12,6 @@ export default function Body() {
         <h1>UNDER CONSTRUCTION</h1>
 
         </div>
-    </body>
+    </div>
   );
 }
