@@ -8,7 +8,7 @@ export default function Store() {
     <body className = {"body"}>
         <Header />
         <MDBCard style={{ maxWidth: '22rem' }}>
-      <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
+      <MDBRipple rippleColor='dark' rippleTag='div' className='bg-image hover-overlay'>
         <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/111.webp' fluid alt='...' />
         <a>
           <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
