@@ -1,5 +1,6 @@
 import '../App.css';
 import '../index.css';
+import Footer from './Footer.jsx';
 import Header from './Header.jsx';
 import leafdrop from '../Assets/leafdrop.png';
 import sustree from '../Assets/sustree.png';
@@ -37,6 +38,7 @@ export default function About() {
           <img src = {leafdrop} width = '150px' height = '150px'/>
 
         </div>
+        <Footer />
     </div>
   );
 }

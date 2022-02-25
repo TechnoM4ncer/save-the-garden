@@ -1,6 +1,7 @@
 import '../App.css';
 import '../index.css';
 import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 
 export default function Body() {
   return (
@@ -12,6 +13,7 @@ export default function Body() {
         <h1>UNDER CONSTRUCTION</h1>
 
         </div>
+        <Footer />
     </div>
   );
 }

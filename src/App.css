@@ -83,3 +83,16 @@ Header.header {
   justify-content: center;
   width: 90%;
 }
+.footer{
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  background-color: #0a8545;
+  filter:opacity(.7);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
