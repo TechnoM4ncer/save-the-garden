@@ -71,6 +71,9 @@ Header.header {
   font-family: 'Times New Roman', serif;
   font-size: 24px;
   background-color: #0a8545;
+  position: sticky;
+  top: 10;
+  left: 10;
   filter:opacity(.7);
   padding-left: 1%;
   padding-right: 2%;

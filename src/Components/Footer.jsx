@@ -1,6 +1,6 @@
 import '../App.css';
 import '../index.css';
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {MDBContainer} from "mdbreact";
 
 export default function Footer() {
   return (
