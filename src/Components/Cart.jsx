@@ -8,7 +8,7 @@ export default function Cart() {
     <div className = {"body"}>
         <Header />
 
-        <div className="bodyText">
+        <div className="body-text">
         <h1>UNDER CONSTRUCTION</h1>
         </div>
         <Footer />
