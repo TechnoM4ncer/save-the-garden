@@ -30,7 +30,7 @@ time, mark, audio, video {
   color: #61dafb;
 }
 
-Body.body {
+.body {
   background-image: url(./Assets/sushandplant.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ Body.body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  padding-bottom: 50vh;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,20 +47,21 @@ Body.body {
   font-size: calc(10px + 1vmin);
   color: black;
   font-family: 'Times New Roman', serif;
-  font-size:larger;
-  font-weight:bold;
+  font-size: larger;
+  font-weight: bold;
 }
 
-.bodyText {
+.body-text {
+  min-height: 43vh;
+  background:transparent;
   padding-left: 10%;
   padding-right: 10%;
   margin-left: 50%;
   margin-right: auto;
-
   filter: opacity(.7);
   font-family: 'Courier New', monospace;
-  font-size:larger;
-  font-weight:bold;
+  font-size: larger;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -72,7 +73,10 @@ Header.header {
   font-family: 'Times New Roman', serif;
   font-size: 24px;
   background-color: #0a8545;
-  filter:opacity(.7);
+  position: sticky;
+  top: 10;
+  left: 10;
+  filter: opacity(.7);
   padding-left: 1%;
   padding-right: 2%;
   margin-top: 6.5%;
@@ -84,7 +88,16 @@ Header.header {
   justify-content: center;
   width: 90%;
 }
-
-.nav-button {
-  padding-left: 1%;
+.footer{
+  font-family: 'Times New Roman', serif;
+  font-size: 14px;
+  background-color: #0a8545;
+  filter:opacity(.7);
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
 }

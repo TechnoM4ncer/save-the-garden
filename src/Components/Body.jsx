@@ -1,17 +1,19 @@
 import '../App.css';
 import '../index.css';
 import Header from './Header.jsx';
+import Footer from './Footer.jsx';
 
 export default function Body() {
   return (
-    <body className = {"body"}>
+    <div className = {"body"}>
         <Header />
 
-        <div className="bodyText">
+        <div className="body-text">
 
         <h1>UNDER CONSTRUCTION</h1>
 
         </div>
-    </body>
+        <Footer />
+    </div>
   );
 }
