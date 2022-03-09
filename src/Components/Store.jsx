@@ -43,7 +43,7 @@ const viewProduct = (product) => {
   desc.innerHTML = product.description;
 
   const btn = document.createElement("button");
-  btn.innerHTML = "Add to Cart";
+  btn.innerHTML = "Buy on Amazon";
   btn.setAttribute("class", "add-to-cart");
 
   card.appendChild(img);
