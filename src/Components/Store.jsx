@@ -3,24 +3,6 @@ import '../index.css';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 
-const url = "http://localhost:3000/";
-
-const getProducts = () => {
-  fetch(url + "products", {
-    method: "GET",
-    headers: {
-      'Content-type': 'application/json',
-      Accept: 'application/json',
-    },
-    body: JSON.stringify()
-  })
-  .then(resp => resp.json())
-  .then(json => {
-    json.forEach(Product => {
-      viewProduct(Product);
-    })
-  })
-}
 
 const viewProduct = (product) => {
   console.log(product.image)
@@ -60,7 +42,7 @@ export default function Store() {
     <div className = {"body"}>
         <Header />
         <div id="product-list">
-        <script>{getProducts()}</script>
+        <script>{viewProduct()}</script>
         </div>
         <Footer />
     </div>
