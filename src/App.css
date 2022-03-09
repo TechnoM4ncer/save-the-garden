@@ -32,7 +32,7 @@ time, mark, audio, video {
 
 .body {
   background-image: url(./Assets/sushandplant.png);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -79,7 +79,7 @@ Header.header {
   filter: opacity(.7);
   padding-left: 1%;
   padding-right: 2%;
-  margin-top: 6.5%;
+  margin-top: 4.5%;
   margin-bottom: 20vh;
   margin-left: auto;
   margin-right: auto;
@@ -87,6 +87,7 @@ Header.header {
   align-items: center;
   justify-content: center;
   width: 90%;
+  height: 10vh;
 }
 .footer{
   font-family: 'Times New Roman', serif;
@@ -100,4 +101,32 @@ Header.header {
   left: 0;
   bottom: 0;
   text-align: center;
+}
+
+.product-card {
+  text-align: center;
+  background-color: #0a85455e;
+  padding: 5px;
+  border-radius: 5px;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+}
+
+.product-avatar {
+  justify-self: center;
+  height: 8rem;
+  width: auto;
+}
+
+.add-to-cart {
+  background-color: #059862;
+  border: 0;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 6px 18px;
+  width: 12rem;
+  height: 3rem;
+  justify-self: center;
 }
