@@ -2,7 +2,6 @@ import '../App.css';
 import '../index.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import shoppingcart from '../Assets/shoppingcart.png';
 import gaiaLogo from '../Assets/gaialogo.png';
 
 export default function Header() {
@@ -19,13 +18,6 @@ export default function Header() {
     </Nav.Item>
     <Nav.Item>
       <Nav.Link as={Link} to = "/Components/About.jsx">About</Nav.Link>
-    </Nav.Item>
-    <Nav.Item className="ms-auto">
-      <Nav> 
-        <Nav.Link as={Link} to="/Components/Cart.jsx">
-        <img src={shoppingcart} alt="Shopping Cart" width="50" height="50"/>
-        </Nav.Link>
-      </Nav>
     </Nav.Item>
   </Nav>
 </Navbar>

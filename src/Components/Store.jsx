@@ -42,7 +42,7 @@ export default function Store() {
     <div className = {"body"}>
         <Header />
         <div id="product-list">
-        <script>{viewProduct()}</script>
+        
         </div>
         <Footer />
     </div>
