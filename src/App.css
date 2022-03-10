@@ -77,10 +77,10 @@ Header.header {
   font-family: 'Times New Roman', serif;
   font-size: 24px;
   background-color: #0a8545;
+  filter: opacity(.9);
   top: 10;
   left: 10;
-  filter: opacity(.7);
-  position: sticky;
+  position: relative;
   padding-left: 1%;
   padding-right: 2%;
   margin-top: 4.5%;
@@ -154,4 +154,68 @@ Header.header {
 .add-to-cart:hover {
   box-shadow: 0 0 5px 0 #ffffff inset, 0 0 5px 2px #ffffff;
   height: 40%;
+}
+
+.home-images {
+  height: 300px;
+  width: auto;
+  display: flex;
+  position: relative;
+  float:right;
+  margin: 5%;
+  margin-top: 12%;
+  border-radius: 10%;
+
+  
+}
+
+.table-text {
+  margin: 5%;
+  font-family: 'Courier New', monospace;
+  font-size: medium;
+  font-weight: bold;
+  width: 60vw;
+}
+
+.body-home-table {
+  background-color: #0a85459c;
+  width: 80vw;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  justify-content:space-evenly;
+  display: flex;
+}
+
+.table-button {
+  margin-left: 12vw;
+  margin-bottom: 5vh;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: forestgreen;
+  border: 2px solid #fafafa;
+  border-radius: 0.6em;
+  color: #fafafa;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 6px 18px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: 700;
+  justify-self: center;
+}
+.table-button:hover {
+  box-shadow: 0 0 5px 0 #ffffff inset, 0 0 5px 2px #ffffff;
 }
