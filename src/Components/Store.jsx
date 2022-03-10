@@ -39,10 +39,12 @@ const viewProduct = (product) => {
 
 export default function Store() {
   return (
-    <div className = {"body"}>
+    <div className ="body">
         <Header />
-        <div id="product-list">
-        
+        <div className="body-text">
+          <div id="product-list">
+            <h1>UNDER CONSTRUCTION</h1>
+          </div>
         </div>
         <Footer />
     </div>

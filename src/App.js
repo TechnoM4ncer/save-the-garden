@@ -3,6 +3,7 @@ import Body from './Components/Body.jsx';
 import About from './Components/About.jsx';
 import Store from './Components/Store.jsx';
 import React from 'react';
+import './index.css';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
